@@ -2,12 +2,17 @@ function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
 	noStroke();
-	noLoop();
+	// noLoop();
 }
 
 function draw() {
 	// clear the background
-	background(150, 50, 50);
+
+	if (mouseIsPressed) {
+		background(52, 51, 116);
+	} else {
+		background(150, 50, 50);
+	}
 
 	// set a fill color
 	fill(255, 255, 255);

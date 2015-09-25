@@ -10,18 +10,13 @@ function draw() {
 	// clear the background
 	if (mouseIsPressed) {
 		background(52, 51, 116);
+		fill(52, 51, 116);
 	} else {
 		background(150, 7, 19);
+		fill(150, 7, 19);
 	}
 	// draw the line
 	line(mouseX, 0, mouseX, 480);
 	line(0, mouseY, 640, mouseY);
-
-	// draw the ellipse
-	if (mouseIsPressed) {
-		fill(52, 51, 116);
-	} else {
-		fill(150, 7, 19);
-	}
 	ellipse(mouseX, mouseY, 40, 40);
 }

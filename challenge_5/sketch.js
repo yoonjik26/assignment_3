@@ -19,11 +19,5 @@ function draw() {
 	fill(255, 255, 255);
 
 	var x = random(-5, 5);
-	if ((xpos == mouseX) && (ypos == mouseY)) {
-			console.log("test");
 			ellipse(xpos + x, ypos + x, 50, 50);
-	} else {
-		ellipse(xpos, ypos, 50, 50);
-	}
-
 }

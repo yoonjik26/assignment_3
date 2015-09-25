@@ -22,7 +22,11 @@ function draw() {
 	for(var j = 0; j < 50; j++){
 		stroke(255, 255, 255);
 	ellipse(320, 240, j * insideTarget, j * insideTarget);
+<<<<<<< HEAD
 
 }
 
+=======
+}
+>>>>>>> origin/master
 }

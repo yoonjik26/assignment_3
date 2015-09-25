@@ -9,6 +9,7 @@ function draw() {
 	colorMode(RGB, 255);
 	// clear the background
 	background(53, 55, 56);
+<<<<<<< HEAD
 
 
 	// draw the rectangle
@@ -17,6 +18,14 @@ function draw() {
 
 	// set a fill color
 
+=======
+
+	// draw the rectangle
+	for (var x = 0; x < 10; x++) {
+			rect(x * 64 + 6.5, 215, 50, 50);
+
+	// set a fill color
+>>>>>>> origin/master
 	colorMode(RGB);
 	var y = 25;
 	fill(0, 0, 0);
@@ -41,6 +50,7 @@ function draw() {
 	rect(9 * 64 + 6.5, 215, 50, 50);
 	fill(10 * y, 0, 0);
 	rect(10 * 64 + 6.5, 215, 50, 50);
+<<<<<<< HEAD
 
 
 
@@ -49,4 +59,7 @@ function draw() {
 		}
 
 
+=======
+		}
+>>>>>>> origin/master
 }
